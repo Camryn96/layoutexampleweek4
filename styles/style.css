@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	
+}
+.container{
+	min-width: 100vw;
+	min-height: 100vh;
+	background-color: yellow;
+	display: flex;
+}
+#left{
+	background-color: darkcyan;
+	width: 400px;
+	float: left;
+	
+	
+}
+#right{
+	background-color: burlywood;
+	width: 300px;
+	float: right;
+	margin-left: 21cm;
+}
+	
